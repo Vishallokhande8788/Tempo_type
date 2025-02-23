@@ -1,0 +1,6 @@
+.tiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
