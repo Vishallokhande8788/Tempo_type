@@ -6,16 +6,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  transition: all 0.1s ease-in-out;
+  transition: background-color 0.1s ease-out, color 0.1s ease-out,
+    transform 0.1s ease-out;
 }
 
 .key_space {
-    width: 240px;
+  width: 240px;
 }
+
 .key_correct {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(33, 26, 35, 0.7);
+  color: white;
+  transform: scale(0.9);
+}
+
+.key_incorrect {
+  background-color: #4076e0;
+
   color: white;
   transform: scale(0.9);
 }
