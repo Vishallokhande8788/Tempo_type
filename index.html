@@ -102,24 +102,26 @@
             <div class="keyboard__row">
               <div id="space" class="key key_space">
                 <span class="key__text">space</span>
-        </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
-      <footer class="footer page-footer">
-        <button class="reset footer_reset"></button>
+      <footer class="footer">
+        <button class="reset footer__reset"></button>
       </footer>
     </div>
-    <template class="word_template">
-    <div class="word">
-    </div>
+
+    <template id="word-template">
+      <div class="word"></div>
     </template>
-    <template class="letter_template">
-      <div class="letter">
-      </div>
-      </template>
-      <template class="coursor_template">
-        <div class="letter_cursor">
-        </div>
-        </template>
+
+    <template id="letter-template">
+      <span class="letter"></span>
+    </template>
+
+    <template id="cursor-template">
+      <span class="letter__cursor"></span>
+    </template>
   </body>
 </html>

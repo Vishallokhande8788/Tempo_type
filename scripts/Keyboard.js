@@ -21,4 +21,3 @@ export default class Keyboard {
     this.keyObjs[key].triggerKey(correctKey, key);
   }
 }
- 

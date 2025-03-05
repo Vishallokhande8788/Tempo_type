@@ -11,8 +11,8 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 
-  /* visibility: hidden;
-  opacity: 0; */
+  visibility: hidden;
+  opacity: 0;
   scale: 0.9;
   transform: translateY(20px);
   transition: all 0.2s;
@@ -27,8 +27,8 @@
 
 .tile__heading {
   font-size: 16px;
-  font-weight: 600;
   margin: 0px;
+  font-weight: 600;
 }
 
 .tile__value {
